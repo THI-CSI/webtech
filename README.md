@@ -249,7 +249,7 @@ Provide a REST-API that handles users with the following requirenments:
 2. Start a shell inside the vm and run `ifconfig`. The ipv4-address which can be found under em0 will be referred to as `<ipv4address>`
 3. Place `./node/user-management/user-management-rest-server.mjs` inside a `directory1` of your choice within the vm
 4. Start a shell inside the vm an run `node user-management-rest-server.mjs` inside the `directory1` within the vm
-5. Place `./node/user.json` and `./node/reset.json` inside a `directory2` of your choice on your host machine
+5. Place `./node/user-management/user.json` and `./node/user-management/reset.json` inside a `directory2` of your choice on your host machine
 6. Start a shell on your host machine and run the following curls inside the `directory2`:
     1. `curl http://<ipv4address>:8080/users`    (gives you all existing users)
     2. `curl -d @user.json -H "Content-Type: application/json" -X POST http://<ipv4address>:8080/users`     (creates the user specified in `user.json`)
