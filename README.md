@@ -1,6 +1,8 @@
 # webtec
 All group work and a summary of the web-technologies lecture at THI in the winter semester 2023/24 resides here.
 
+Maintained by [@fynnwind](https://github.com/Fynnwind)
+
 ## Structure
 ```
 .
